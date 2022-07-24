@@ -44,6 +44,13 @@ it('should return the correct score when a strike is rolled', () => {
   expect(game.score).toEqual(14);
 });
 
+// 10 10 10 10 10 10 10 10 10 10 10 10 = 300 (Perfet game with two extra bonus rolls)
+
+it('should return the correct score for a perfect game', () => {
+  rollMany(10, 12);
+  expect(game.score).toEqual(300);
+});
+
 function rollMany(pins, rolls) {
   for (let i = 0; i < rolls; i++) {
     game.roll(pins);
