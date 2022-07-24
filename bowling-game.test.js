@@ -26,7 +26,8 @@ it('should return correct score when spare is rolled', () => {
   game.roll(5);
   game.roll(5);
   game.roll(3);
-  rollMany(0,17);
+   
+  rollMany(0, 17);
   
   expect(game.score).toEqual(16);
 });
