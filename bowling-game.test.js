@@ -9,7 +9,7 @@ it('should return 0 for a game of all zeros', () => {
   }
 
   expect(game.score).toEqual(0);
-})
+});
 
 // 1/1 1/1 1/1 1/1 1/1 1/1 1/1 1/1 1/1 1/1 = 20 
 
@@ -20,4 +20,4 @@ it('should return 20 for a game of all ones', () => {
   }
 
   expect(game.score).toEqual(20);
-})
+});
