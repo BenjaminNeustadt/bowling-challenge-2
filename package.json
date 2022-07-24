@@ -1,0 +1,26 @@
+{
+  "name": "_2_bowling-challenge",
+  "version": "1.0.0",
+  "description": "Bowling Challenge =================",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminNeustadt/bowling-challenge-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminNeustadt/bowling-challenge-2/issues"
+  },
+  "homepage": "https://github.com/BenjaminNeustadt/bowling-challenge-2#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
