@@ -60,3 +60,10 @@ Methods 'roll' and 'score'
 10 1/1 -/- -/- -/- -/- -/- -/- -/- -/- = 14 (Strike)
 
 10 10 10 10 10 10 10 10 10 10 10 10 = 300 (Perfet game with two extra bonus rolls)
+
+
+
+
+Resources: 
+
+https://www.youtube.com/watch?v=brahHchaegc&ab_channel=RedGreenRefactor
