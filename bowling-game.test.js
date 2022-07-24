@@ -32,6 +32,18 @@ it('should return correct score when spare is rolled', () => {
   expect(game.score).toEqual(16);
 });
 
+
+// 10 1/1 -/- -/- -/- -/- -/- -/- -/- -/- = 14 (Strike)
+
+it('should return the correct score when a strike is rolled', () => {
+  game.roll(10);
+  game.roll(1);
+  game.roll(1);
+
+  rollMany(0, 17);
+  expect(game.score).toEqual(14);
+});
+
 function rollMany(pins, rolls) {
   for (let i = 0; i < rolls; i++) {
     game.roll(pins);
