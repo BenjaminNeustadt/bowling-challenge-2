@@ -1,4 +1,4 @@
-const BowlingGame = require('./bowling-game');
+const BowlingGame = require('./bowling-game.js');
 
 it('should return 0 for a game of all zeros', () => {
   const game = new BowlingGame();
