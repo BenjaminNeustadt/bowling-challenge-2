@@ -63,7 +63,3 @@ Methods 'roll' and 'score'
 
 
 
-
-Resources: 
-
-https://www.youtube.com/watch?v=brahHchaegc&ab_channel=RedGreenRefactor
